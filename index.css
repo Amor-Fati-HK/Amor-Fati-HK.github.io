@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    height: 80vh;
+    gap: 20px;
+
+}
+.header-ascii {
+    text-align: center;
+    white-space: pre; 
+    font-size: 1em; 
+    color: #CC0000; 
+    text-shadow: none;
+    line-height: 1;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 10%;
+    gap: 10px;
+    margin-left: 15px;
+}
+form input{
+    padding-left: 10px;
+    background-color: black;
+    color: red;
+    border: 2px solid transparent; 
+    border-color: transparent;
+    outline: none;   
+    width: 90%;
+}
+.inpuut{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    border: 2px solid #CC0000;   
+    align-items: center; 
+
+}
+form .inpuut input :focus{
+    outline: none;
+    box-shadow: none
+}
+form button{
+    background-color: black;
+    color: red;
+    border-color: red;
+    width: 17%;
+    height: 50%;
+}
+form button:hover{
+    background-color: #CC0000;
+    color: black;
+}
+
+form img{
+    height: 30px;
+    width: 30px;
+}
